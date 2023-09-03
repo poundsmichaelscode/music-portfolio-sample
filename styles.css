@@ -1,0 +1,326 @@
+
+*{margin: 0;
+    text-decoration: none;
+    padding-top: 0%;
+    scroll-behavior: smooth;
+    position: sticky;
+    background-attachment: fixed;
+    background-attachment: fixed;
+    position: static;
+    
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  z-index: 100;
+  background-color: rgb(23, 32, 33);
+text-align: center;
+top:0;
+left:0;}
+
+
+.blog{margin-left: 85rem;}
+
+
+span{font-size:30px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 900;
+font-style: italic;
+color:rgb(120, 120, 159) ;}
+
+.header h4{margin-left: 50rem;font-style:italic ;
+font-weight: 50%;padding-bottom: 0;color: blue;}
+
+  
+
+
+/**/
+
+.navbar a { font-size: 20px;
+font-weight: bolder;
+margin: 10px;color: rgb(207, 233, 250);}
+
+.navbar a span:hover{color: blue;font-weight: 5000%;}
+.navbar :hover{color: rgb(63, 16, 251);
+}
+
+
+/**/
+.home {
+  font-family: Roboto Thin;
+  background-image: url("/img/iolin1.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height: 35rem;
+  width: 96rem;}
+
+.home h2 {text-align: center;margin-right: 110px;
+padding: 70px;
+border: 20px;
+font-weight: 500%;
+color: rgb(21, 22, 22);
+font-size: 2rem;}
+
+
+.home p {text-align: center;margin-right: 200px;
+  padding-top: 1px;
+  border: 20px;
+  color: rgb(217, 202, 202);
+  font-size: 1.2rem;}
+
+  .home h3 {text-align: center;margin-right: 200px;
+    padding-top: 8rem;
+    border: 20px;
+    color: rgb(234, 80, 14);
+    font-size: 1.8rem;}
+
+
+    .icons {position: fixed;
+      position: sticky;
+      left: 0;
+      width: 87%;
+          text-align: center;
+          justify-content: center;
+    
+      padding-top: 1rem ;
+      
+      }
+      .icons img{height: 40px;
+        border: 2px;
+        
+      }
+
+
+
+/**/
+.icons img {
+  animation: floatImage 3s ease-in-out infinite ;}
+  
+  @keyframes floatImage{ 
+      0%{transform: translateY(0);}
+     50% {transform: translateY(-1.1rem);}
+    100%  {transform: translateY(0);
+  } }
+
+    
+
+      /**/
+
+ .biography{background-color: rgb(218, 228, 16);
+height: 55rem;
+  width: 94.9rem;
+position: sticky;
+color: #18151a;}
+
+.bio-header {text-align: right 10rem;padding-bottom: 1rem;
+text-align:center;}
+
+  .pro-img img{align-items: center;
+    display: inline;
+    
+    
+    height:100px;
+  width: 100px;
+border-radius: 50px;
+
+      position: sticky;
+      
+}
+
+.pro-img{justify-content: center;
+align-items: center;
+text-align: center;
+padding-top: 1rem ;}
+
+
+
+
+      .biography h1{font-style: italic;
+      font-size: 3rem;
+      font-weight: 800;
+    text-align: center;
+  padding-top: 2.8rem;}
+
+    .biography h1:hover{color: blue;
+    
+    }
+    .biography p {text-align: center;
+      font-weight: 2rem; 
+    }
+    .biography h2{text-align:right 10rem;
+  ; color:blue ;
+margin:40px ;}
+.biography h6{ text-align: left 50%;
+  color: blue;
+
+}
+
+    .bio-img img{height: 22rem;
+    width:20rem;
+  margin-left: 2rem;
+}
+
+
+
+
+
+
+
+
+
+/**/
+      
+.gallery{
+  background-color: #8190a3;
+}
+
+.heading{color: blue;
+  text-align: center;font-size: 2rem;
+
+}
+
+.gallery-content{ display: grid;
+grid-template-columns: repeat(3,1fr);
+align-items: center;
+gap:0rem;}
+
+.gallery-content .gallery-box{ position: relative;
+border-radius: 1rem;
+box-shadow: rgb(23, 32, 33);}
+
+.gallery-box img{ width: 70%;
+height: 30rem;
+border-radius: 5rem;}
+
+.gallery-box .gallery-layer{ 
+position: static;
+
+}
+.gallery-content h2{padding-top: 0rem;}
+.gallery-content p {padding-bottom: 5rem;
+text-align: justify;}
+
+
+
+
+
+/**/
+
+.my-service{margin: 0;}
+
+
+.service{
+  background-color: #cfdee1;
+  position:sticky;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.service-heading{color: rgb(8, 8, 246);
+  text-align: center;font-size: 2rem;
+
+}
+
+.service-content{ display: grid;
+grid-template-columns: repeat(4,1fr);
+align-items: center;
+gap:1rem;}
+
+.service-content .service-box{ position: relative;
+
+box-shadow: rgb(23, 32, 33);}
+
+.service-box img{ display:grid;
+}
+
+.service-box .service-layer{ display: inline;
+position: static;
+
+}
+.service-content h2{padding-top: 0rem;}
+.service-content p {padding-bottom: 5rem;
+text-align: justify;}
+
+
+
+
+
+/**/
+
+
+.contact{background-color: rgb(51, 57, 32);padding-top: 30px;
+padding-bottom: 40px;
+justify-content: right;}
+.contact h2 {
+  margin-bottom: 3rem;
+}
+
+.contact form {background-color: #3c5257;
+  max-width: 60rem;
+  margin: 1rem auto;
+  text-align: center;
+  margin-bottom: 3rem;
+
+}
+
+.contact form .input-box {
+  display: flex;
+  justify-content: center;
+
+  flex-wrap: wrap;
+}
+
+.contact form .input-box input,
+.contact form textarea {
+  width: 70%;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  color: rgb(48, 54, 54);
+  background: #f4f4fa;
+  border-radius: .8rem;
+  margin: .7rem 0;
+}
+
+.contact form .input-box input {
+  width: 40%;
+  height: 40%;
+
+}
+
+.contact form textarea {
+  resize: none;
+}
+
+
+.contact form .btn {
+  margin-top: rem;
+}
+
+
+
+
+
+
+
+
+/**/
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #18151a;
+  color: #ddd4e0;
+  text-align: center;
+  z-index:0;
+}
+
+
+
+
+
